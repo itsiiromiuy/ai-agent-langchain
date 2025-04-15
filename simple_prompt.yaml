@@ -1,0 +1,21 @@
+# simple_prompt.yaml
+_type: prompt
+input_variables:
+  - name
+  - what
+template: tell me a {what} story about {name}  
+
+
+# To load and use this YAML file in LangChain, you would typically do:
+# from langchain.prompts import load_prompt
+
+# # Load the prompt from the YAML file
+# prompt = load_prompt("simple_prompt.yaml")
+
+# # Format the prompt with variables
+# formatted_prompt = prompt.format(name="Alice", what="her adventure in Wonderland")
+
+# print(formatted_prompt)
+# # Output: tell me a story about Alice and her adventure in Wonderland
+
+
