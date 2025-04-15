@@ -8,6 +8,7 @@ google-ai-generativelanguage = "==0.6.17"
 dotenv = "==0.9.9"
 langchain-google-genai = "==2.1.2"
 langchain-community = "==0.3.21"
+jinja2 = "*"
 
 [dev-packages]
 
